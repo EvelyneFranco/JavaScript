@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Events!</title>
+</head>
+<body>
+<button onclick="addName()">Click me!</button>
+<p id="user-input"></p>
+<script>
+function addName(){
+   var name = prompt("Please enter your name");
+ 
+   if (name != null) {
+    document.getElementById("user-input").innerHTML =
+      "Hello " + name ;
+    } else if(name===null){
+      alert("Please enter valid name");
+    }
+    
+}
+</script>
+</body>
+</html>
