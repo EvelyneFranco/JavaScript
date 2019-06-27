@@ -1,0 +1,51 @@
+
+<html>
+<head>
+  <style> 
+ #myDIV {
+          width: 100%;
+          padding: 50px 0;
+          text-align: center;
+          background-color: lightblue;
+          margin-top: 20px;
+          display: none
+        }
+        
+.btn {
+  background-color: #f48892e;
+  border: none;
+  color: black;
+  padding: 3px 15px;
+  text-align: center;
+  font-size: 14px;
+
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.btn:hover {opacity: 1}
+</style>
+
+
+
+<div id="menu">
+<button id = "button1" onclick="btnFunction1()">Button 1</button>
+<button id = "button2" onclick="btnFunction2()" >Button 2</button>
+<button class="btn">Button 3</button>
+</div>
+<div id="myDIV">
+Evelyne Franco.
+</div>
+
+<script>
+function btnFunction1(){
+  
+  alert("You clicked button 1");
+}
+
+function btnFunction2(){
+  document.getElementById("myDIV").style.display = "block";
+}
+</script>
+
+</body>
+</html>
