@@ -3,27 +3,30 @@ module.exports={
         browser
         .url('https://www.microsoft.com/en-us/')
         .assert.title("Microsoft - Official Home Page")
+        
 
+        // windows 
         .waitForElementVisible('a[id=shellmenu_1]',1000)
         .click('a[id=shellmenu_1]')
+        //windows 10
         .waitForElementVisible('button[id=c-shellmenu_43]',1000)
         .click('button[id=c-shellmenu_43]')
-        .waitForElementVisible('a[id=c-shellmenu_44]')
         //Get windows 10
-        .assert.elementPresent('a[id=c-shellmenu_44]')
-        .waitForElementVisible('a[id=c-shellmenu_46]')
+        .waitForElementVisible('a[id=c-shellmenu_45]')
+        .assert.elementPresent('a[id=c-shellmenu_45]')
         //Why upgrade
-        .assert.elementPresent('a[id=c-shellmenu_46]')
         .waitForElementVisible('a[id=c-shellmenu_47]')
-        //Features
         .assert.elementPresent('a[id=c-shellmenu_47]')
+        //Features
+        .waitForElementVisible('a[id=c-shellmenu_48]')
+        .assert.elementPresent('a[id=c-shellmenu_48]')
 
         //click on by windows 10
-        .click('a[id=c-shellmenu_44]')
+        .click('a[id=c-shellmenu_45]')
         //close register alert
         .useXpath()
-        .waitForElementVisible('//div[contains(@class,"c-glyph glyph-cancel")]',1000)
-        .click('//div[contains(@class,"c-glyph glyph-cancel")]')
+       .waitForElementVisible('//div[contains(@class,"c-glyph glyph-cancel")]',1000)
+       .click('//div[contains(@class,"c-glyph glyph-cancel")]')
 
         //validate text un get windows, the option in the exersice is not displayed but I will validate another one 
         .waitForElementVisible('//h1[@id="DynamicHeading_productTitle"]',2000)

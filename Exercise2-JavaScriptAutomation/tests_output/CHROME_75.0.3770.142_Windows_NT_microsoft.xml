@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="microsoft"
+    errors="0" failures="0" hostname="" id="" package="microsoft" skipped="0"
+    tests="1" time="45.34" timestamp="">
+  
+    <testcase name="microsoft test" classname="microsoft" time="45.34" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
