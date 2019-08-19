@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="YouTubeTest"
+    errors="0" failures="1" hostname="" id="" package="YouTubeTest" skipped="0"
+    tests="1" time="13.28" timestamp="">
+  
+    <testcase name="YouTube Testing Left Menu" classname="YouTubeTest" time="13.28" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;Element [name=@tittleText]&gt; contains text: &#34;Automation with Selenium&#34; in 1000 ms. - expected [0;32m&#34;Automation with Selenium&#34;[0m but got: [0;31m&#34;Automating with Node.js - 001&#34;[0m">    at Page.assertFails (C:\Users\evelyne.franco\Documents\JavaScriptExercises\Exercise3-AutomationJS\page-object\YouTubeResultPage.js:60:21)
+    at Object.YouTube Testing Left Menu (C:\Users\evelyne.franco\Documents\JavaScriptExercises\Exercise3-AutomationJS\test\YouTubeTest.js:75:16)</failure>
+<system-out>[[ATTACHMENT|C:\Users\evelyne.franco\Documents\JavaScriptExercises\Exercise3-AutomationJS\reports\YouTubeTest\YouTube-Testing-Left-Menu_FAILED_Aug-19-2019-130827-GMT-0500-(Central-Daylight.png]]</system-out>
+    <failure message="    at Page.assertFails (C:\Users\evelyne.franco\Documents\JavaScriptExercises\Exercise3-AutomationJS\page-object\YouTubeResultPage.js:60:21)">    at Object.YouTube Testing Left Menu (C:\Users\evelyne.franco\Documents\JavaScriptExercises\Exercise3-AutomationJS\test\YouTubeTest.js:75:16)</failure>
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="YouTubeTest"
+    errors="0" failures="0" hostname="" id="" package="YouTubeTest" skipped="0"
+    tests="1" time="10.15" timestamp="">
+  
+    <testcase name="YouTube Testing Left Menu" classname="YouTubeTest" time="10.15" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>
