@@ -43,7 +43,12 @@ function btnFunction1(){
 }
 
 function btnFunction2(){
-  document.getElementById("myDIV").style.display = "block";
+   var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
 </script>
 
